@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+button {
+  border: none;
+  background: none;
+  font-family: "Inter Tight", sans-serif;
+}
+
+input {
+  font-family: "Inter Tight", sans-serif;
+  outline: none;
+  border: 1px solid gray;
+}
+
+body {
+  font-family: "Inter Tight", sans-serif;
+  background-color: aqua;
+}
+
+.form-parent {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-parent form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 320px;
+  width: 100%;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-size: 12px;
+}
+
+.form-parent form input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.forget-pass,
+.prev-ac {
+  font-size: 12px;
+}
+
+.forget-pass a,
+.prev-ac a {
+  color: blue;
+  font-weight: bold;
+}
+
+.btn {
+  margin: 5px 0;
+  background-color: aqua;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  color: rgb(16, 71, 71);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}

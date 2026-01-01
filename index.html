@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form-parent">
+      <form>
+        <h1 class="form-title">Registration</h1>
+        <label class="label" for="name">Name</label><br />
+        <input
+          type="text"
+          name="name"
+          placeholder="ex: Md Samrat Mufty"
+          required
+        /><br />
+        <label class="label" for="email">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="ex: username@email.com"
+          required
+        /><br />
+        <label class="label" for="pass">Password</label><br />
+        <input
+          type="password"
+          name="pass"
+          placeholder="Set Password"
+          minlength="6"
+          required
+        />
+        <p class="forget-pass">Forget Password? <a href="#">Click Here!</a></p>
+        <button class="btn" type="submit">Registration</button>
+        <p class="prev-ac">
+          Already have an account? <a href="#">Login Here!</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
