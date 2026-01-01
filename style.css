@@ -63,7 +63,7 @@ body {
   font-size: 12px;
 }
 
-.form-parent form input {
+.form-parent form .input > input {
   width: 100%;
 }
 
@@ -88,6 +88,24 @@ select {
   border-radius: 5px;
   border: 1px solid gray;
   outline: none;
+}
+
+.checkbox {
+  display: flex;
+  gap: 5px;
+  p {
+    font-size: 12px;
+  }
+}
+
+.radio {
+  font-size: 12px;
+  margin: 5px 0;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
 }
 
 .forget-pass,
