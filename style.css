@@ -93,7 +93,7 @@ select {
 .checkbox {
   display: flex;
   gap: 5px;
-  p {
+  label {
     font-size: 12px;
   }
 }
